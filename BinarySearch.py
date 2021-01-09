@@ -3,6 +3,7 @@
 def binary_search(sorted_list, target):
     """ 
     Time Complexity: O(log2(n))
+    Space Complexity: O(1)
     """
 
     # Floor and ceiling indices are the "walls" that eclose the target value in the array   
