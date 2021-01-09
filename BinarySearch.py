@@ -1,7 +1,12 @@
 # Binary Search 
 
+# 
 def binary_search(sorted_list, target):
+    """ 
+    Time Complexity: O(log2(n))
+    """
 
+    # Floor and ceiling indices are the "walls" that eclose the target value in the array   
     floor_idx = -1
     ceiling_idx = len(sorted_list)
 
