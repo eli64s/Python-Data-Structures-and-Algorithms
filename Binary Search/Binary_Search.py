@@ -1,6 +1,5 @@
 # Binary Search 
 
-# 
 def binary_search(sorted_list, target):
     """ 
     Time Complexity: O(log2(n))
