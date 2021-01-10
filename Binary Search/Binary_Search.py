@@ -4,6 +4,7 @@
 def binary_search(sorted_list, target):
     """ 
     Time Complexity: O(log2(n))
+    Space Complexity: O(1)
     """
 
     # Floor and ceiling indices are the "walls" that eclose the target value in the array   
@@ -13,8 +14,8 @@ def binary_search(sorted_list, target):
     while (floor_idx + 1) < ceiling_idx:
 
         distance = ceiling_idx - floor_idx
-        middle_idx = distance // 2
-        guess_idx = floor_idx + middle_idx
+        mid_idx = distance // 2
+        guess_idx = floor_idx + mid_idx
         guess_value = sorted_list[guess_idx]
 
         # Target value is found
